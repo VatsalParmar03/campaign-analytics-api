@@ -68,11 +68,17 @@ https://campaign-analytics-api.onrender.com/api/reports/campaign-summary/
 
 Local Setup
 git clone https://github.com/VatsalParmar03/campaign-analytics-api
+
 cd campaign-analytics-api
+
 python -m venv venv
+
 venv\Scripts\activate
+
 pip install -r requirements.txt
+
 python manage.py migrate
+
 python manage.py runserver
 
 🔹 Notes
